@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Quest for Treasure</title>
+    <title>Vipul Digs for Treasure</title>
     <style>
         #locations,
         #score,
@@ -91,7 +91,7 @@
 
                 for (let i = 0; i < 35; i++) {
                     let img = document.createElement('img');
-                    img.src = "cactus.jpg"; // Initial image
+                    img.src = "cactus.webp"; // Initial image
                     img.id = 'img' + i;
                     img.onclick = () => check(i); // Click handler
                     grid.appendChild(img);
@@ -114,14 +114,14 @@
                     let img = document.getElementById(ids[position]);
 
                     if (position === snakeLocation) {
-                        img.src = 'snake.jpg';
+                        img.src = 'snake.jpeg';
                         gameOver = true;
                         score -= 3;
                     } else if (position === goldLocation) {
-                        img.src = 'Gold digger.webp';
+                        img.src = 'gold nugget.jpg';
                         score += 5;
                     } else if (silverLocations.includes(position)) {
-                        img.src = 'silver coin.jpeg';
+                        img.src = 'silver coin.jpg';
                         score += 3;
                     } else {
                         img.src = 'pottery.jpeg';

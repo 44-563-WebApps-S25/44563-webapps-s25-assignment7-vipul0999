@@ -53,7 +53,7 @@
             let now = Date.now();
             let elapsed = now - startTime;
             let remaining = Math.max(0, countdownTime - elapsed);
-            document.getElementById('counter').innerText = 'Count: ${remaining} ms';
+            document.getElementById('counter').innerText = `Count: ${remaining} ms`;
 
             if (remaining === 0) {
                 clearInterval(timer);
@@ -70,7 +70,7 @@
             document.getElementById('target').innerText = "Your time: You missed it!";
         } else {
             let difference = Math.abs(haltTime - (Date.now() - (Date.now() % 1000))); // Compare halt time to current time
-            document.getElementById('target').innerText = 'Your time: ${difference} ms';
+            document.getElementById('target').innerText = `Your time: ${difference} ms`;
         }
     }
 </script>

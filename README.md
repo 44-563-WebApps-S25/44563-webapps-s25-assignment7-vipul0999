@@ -2,8 +2,8 @@
 # WebApps-S25-Assignment-7
 An assignment on java script modifying the DOM and using anonymous callback functions.
 
-Hosted at[treasure][https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vipul0999/treasure.html]
+Hosted at[treasure](https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vipul0999/treasure.html)
 
-Hosted at[reflex][https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vipul0999/reflex.html]
+Hosted at[reflex](https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vipul0999/reflex.html)
 
-Hosted at[divs][https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vipul0999/divs.html]
+Hosted at[divs](https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vipul0999/divs.html)
